@@ -119,7 +119,7 @@ elseif ($action == 'updateStatus')
         ":status" => $status
     ]);
 
-    header("Location: ../../resources/views/taken/index.php?msg=Status bijgewerkt!");
+    header("Location: ../../../resources/views/taken/index.php?msg=Status bijgewerkt!");
    
 }
 
