@@ -27,4 +27,4 @@ $statement->execute([
     ':password' => $hashedPassword
 
 ]);
-header("Location: " . $base_url . "/index.php?msg=geregristreerd");
+header("Location: " . $base_url . "/index.php?msg=geregistreerd");
