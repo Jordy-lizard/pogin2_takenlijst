@@ -1,0 +1,231 @@
+/* Algemene stijlen voor de pagina */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #004d99;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styling voor de navigatielinks */
+.a-tags {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.a-tags a {
+    text-decoration: none;
+    color: #004d99;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #004d99;
+    transition: all 0.3s ease;
+}
+
+.a-tags a:hover {
+    background-color: #004d99;
+    color: white;
+}
+
+/* Berichtstijl voor notificaties */
+.msg {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Styling voor de tabel */
+.form-table {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #004d99;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Styling voor de aanpaslink */
+.a-tag {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-tag:hover {
+    color: #d9534f;
+}
+/* Algemene stijlen voor de pagina */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    /* padding: 15px 0; */
+    /* text-align: center; */
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #004d99;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulier styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #004d99;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #004d99;
+    outline: none;
+}
+
+select, input[type="radio"], input[type="date"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+select:focus, input[type="radio"]:focus, input[type="date"]:focus, textarea:focus {
+    border-color: #004d99;
+    outline: none;
+}
+
+/* Styling voor de radioknoppen */
+.form-group input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #004d99;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+/* Styling voor de melding bij succes/fout */
+.msg {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    text-align: center;
+}
